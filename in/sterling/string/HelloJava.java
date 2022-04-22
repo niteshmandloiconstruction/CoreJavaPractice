@@ -1,14 +1,10 @@
 public class HelloJava{
 public static void main(String[] args){
-getPost();
-secondMethod();
-}
 
-public static void getPost(){
-System.out.println("Hii i am Nitesh");
-}
+String str=new String("Git Hub Practice");
 
-public static void secondMethod() {
-	System.out.println("Hello");
-	}
+for (int i = 0; i < str.length(); i++) {
+	System.out.println(str.charAt(i));
+}
+}
 }
